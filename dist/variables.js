@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let Name = "Tejas";
+Name = "Dhruv";
+let Age = 21;
+Name = "Dhruv";
+Age = 12;
+let lastname = "panchal";
+lastname = 10;
+let status = true;
+status = false;
