@@ -54,7 +54,7 @@ let houses:[socity:string,no:number]=["kalyan nagar",6]
 
 
 //tuples with rest
-let flats:[string,...number]=["manoj",701,801,901,1001];
+let flats:[string,...number[]]=["manoj",701,801,901,1001];
 
 
 
