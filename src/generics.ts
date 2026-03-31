@@ -7,7 +7,7 @@ return val
 
 //generic with array
 
-function  garray<T>(arr:T[]):T {
+function  garray<T>(arr:T[]){
 return arr[0];
 }
 
