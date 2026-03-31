@@ -13,3 +13,11 @@ return arr[0];
 
 garray([1,2,3,4,5]);
 garray(["tejas","dhruv","jainam"])
+
+
+//generics with multiple value
+
+function person<t,s>(name:t,age:s){
+    return {name,age}
+}
+person("tejas",21);

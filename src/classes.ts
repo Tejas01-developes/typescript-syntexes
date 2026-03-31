@@ -31,3 +31,15 @@ class school{
 
 
 const schoollist=new school("sabari")
+
+
+class bike{
+    constructor(public name:string,public topspeed?:number){
+        this.name=name,
+        this.topspeed=topspeed
+    }
+
+}
+
+
+const rider=new bike("FZX")
