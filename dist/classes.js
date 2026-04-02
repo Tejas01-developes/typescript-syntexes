@@ -21,3 +21,14 @@ class school {
     }
 }
 const schoollist = new school("sabari");
+class bike {
+    name;
+    topspeed;
+    constructor(name, topspeed) {
+        this.name = name;
+        this.topspeed = topspeed;
+        this.name = name,
+            this.topspeed = topspeed;
+    }
+}
+const rider = new bike("FZX");

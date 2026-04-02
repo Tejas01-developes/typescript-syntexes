@@ -1,5 +1,5 @@
 
-//here is the example of the normal calss and constructor
+//here is the example of the normal class and constructor
 
 class person{
    public name:string
@@ -36,10 +36,10 @@ console.log(p1.greet());
 
 //below is the example of the optional parameter using '?' 
 class man{
-    public name:string
-    public profession:string
-    public salary?:number
-constructor(name:string,profession:string,salary?:number){ 
+    // public name:string
+    // public profession:string
+    // public salary?:number
+constructor(public name:string,public profession:string,public salary?:number){ 
 this.name=name,
 this.profession=profession,
 this.salary=salary

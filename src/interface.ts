@@ -52,21 +52,22 @@ interface person{
 interface age extends person{
     
     std:number
+   
 }
 
-const p1:age={
+const p2:age={
     name:"tejas",
     std:3
 }
 
-console.log(p1.std)
+console.log(p2.std)
 
 
 //interface with class
 
 interface person{
     name:string;
-    gree():string;
+    
 }
 
 class student implements person{
